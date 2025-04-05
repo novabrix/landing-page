@@ -1,0 +1,159 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    background-color: #1F2937;
+}
+
+.nav-bar{
+    display: flex;
+    font-size: large;
+    justify-content: space-evenly;
+    color: #E5E7EB;
+    align-items: center;
+}
+
+.nav1{
+    color: #F9FAF8;
+    font-size: x-large;
+    margin-right: 500px;
+}
+
+.head-bar{
+    display: flex;
+    color: #E5E7EB;
+    flex-direction: column;
+}
+
+.head1{
+    font-size: 34px;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-bottom: -35px;
+}
+
+.head2{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.head3{
+    background-color: #3882F6;
+    margin-left: 30px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.head-divider{
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder{
+    background-color: black;
+    width: 300px;
+    height: 90px;
+    position: relative;
+    left: 850px;
+    top: -150px;
+}
+
+.info-cont{
+    margin-bottom: 20px;
+}
+
+.info1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.B1,
+.B2,
+.B3,
+.B4{
+    flex-direction: column;
+}
+
+.infoB1,
+.infoB2,
+.infoB3,
+.infoB4{
+    border: 5px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.test-cont{
+    background-color: #E5E7EB;
+    padding-top: 3px;
+}
+
+.testimonial{
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+.test-name{
+    display: flex;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
+.call-back{
+    align-content: center;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    height: 160px;
+    width: 900px;
+    margin: 50px 200px;
+}
+
+.text-1{
+    font-size: 25px;
+    margin: auto auto 0 100px;
+}
+
+.button-holder{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-2{
+    margin: 0 250px -35px 40px;
+}
+
+.call-button{
+    width: 120px;
+    height: 50px;
+    border: 3px solid white;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.copyright-bar{
+    color: #E5E7EB;
+}
+
